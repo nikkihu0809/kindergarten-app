@@ -1,0 +1,1 @@
+ALTER TABLE `students` ADD `enrollmentDate` varchar(10) DEFAULT '' NOT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `students` ADD `notes` varchar(1000) DEFAULT '' NOT NULL;

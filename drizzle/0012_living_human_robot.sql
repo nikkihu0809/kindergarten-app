@@ -1,0 +1,1 @@
+ALTER TABLE `incident_reports` ADD `trackingStatus` varchar(32) DEFAULT '觀察中' NOT NULL;

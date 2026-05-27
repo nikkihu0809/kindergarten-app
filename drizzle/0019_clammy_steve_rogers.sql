@@ -1,0 +1,1 @@
+ALTER TABLE `lesson_plans` ADD `eventTag` varchar(100) DEFAULT '' NOT NULL;

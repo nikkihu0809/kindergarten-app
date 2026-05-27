@@ -1,0 +1,1 @@
+ALTER TABLE `student_attendance` ADD `leaveType` varchar(32) DEFAULT '' NOT NULL;

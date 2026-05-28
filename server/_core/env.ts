@@ -9,4 +9,8 @@ export const ENV = {
   s3AccessKey: process.env.S3_ACCESS_KEY ?? "",
   s3SecretKey: process.env.S3_SECRET_KEY ?? "",
   s3PublicUrl: process.env.S3_PUBLIC_URL ?? "", // CDN or public bucket URL prefix
+  // Google OAuth
+  googleClientId: process.env.GOOGLE_CLIENT_ID ?? "",
+  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET ?? "",
+  appUrl: process.env.APP_URL ?? "https://kindergarten-app-production.up.railway.app",
 };
